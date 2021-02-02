@@ -10,6 +10,17 @@ using namespace std;
 
 int main()
 {
+    long long n,k;
+    cin>>n>>k;
+    if((n/k)%2==0)
+        cout<<"NO";
+    else
+        cout<<"YES";
+    return 0;
+}
+/*
+int main()
+{
     int n,k,turn=0;
     string st="NO";
     cin>>n>>k;
@@ -30,3 +41,4 @@ int main()
     cout<<st;
     return 0;
 }
+*/
